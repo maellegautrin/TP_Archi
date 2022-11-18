@@ -1,0 +1,7 @@
+
+
+3.4.1 
+
+1) le programme renvoie la somme de 2 et de 3 dans l'adresse mémoire 0. 
+
+2) le programme renvoie le contenu de R0 dans D si le contenu de R0 est plus grand que celui de R1, et met le contenu de R1 dans R2 sinon. 

@@ -1,0 +1,15 @@
+/**
+ * Subtracts two 16-bit values.
+ */
+
+CHIP Subtract16 {
+    IN a[16], b[16];
+    OUT out[16];
+
+    PARTS:
+    
+    ALU(x=a, y=b, zx = false, nx = false, zy = false, ny = true , f = true, no = false , out = out1, zr = zr1 , ng =ng2);
+
+    ALU(x=out1, y[1..15] = false , y[0] = true, zx = false, nx = false, zy = false, ny = false , f = true, no = false , out = out, zr = zr , ng =ng);
+
+}
