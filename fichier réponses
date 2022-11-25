@@ -1,0 +1,5 @@
+
+1) il fait la somme de 2 et de 3 et met le résultat à l'adresse 0. 
+
+2) Si le contenu de R0 est plus grand que celui de R1: il retourne le contenu de R0 à l'adresse D.
+Sinon: il met le contenu de R1 dans R2.
